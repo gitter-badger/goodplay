@@ -18,6 +18,9 @@ for running your tests.
    test environment you manage on your own, you can skip Docker installation
    and continue with the next section.
 
+As goodplay makes use of user-defined networks and Docker's embedded DNS
+server to allow hosts to resolve each other, it requires at least Docker
+version ``1.10.0``.
 There are a lot of options when it comes to setting up a Docker host.
 
 When running Linux with a recent kernel version, ``docker`` is most likely
